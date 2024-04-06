@@ -1,0 +1,36 @@
+@font-face { font-family: "Digital"; src: url('../fonts/Adequate-ExtraLight.ttf'); }
+@font-face { font-family: "Micro"; src: url('../fonts/MicroExtendFLF.ttf'); }
+body {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-color:#FFF;
+}
+
+.content {
+	display: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: table;
+	vertical-align: middle;
+	height: 100vh;
+}
+
+.content .inner {
+	display:table-cell;
+	vertical-align: middle;
+	font-family: "Muli-Light";
+}
+.time, .date, .seconds {
+	font-family: "Micro";
+	font-weight: bold;
+	color:#15273;
+}
+#particles-js{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
